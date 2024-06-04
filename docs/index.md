@@ -16,8 +16,11 @@ hero:
       text: 快速开始
       link: /front-dev
     - theme: alt
-      text: 关于我
-      link: https://github.com/Odin-7
+      text: 百宝袋AI 🤖
+      link: https://mrk.auroralpixel.world
+    - theme: alt
+      text: Github
+      link: https://github.com/Odin-7/shulan-notes
 features:
   - title: 前端导航
     details: 记录前端开发过程中的经验和技巧，分享学习心得。

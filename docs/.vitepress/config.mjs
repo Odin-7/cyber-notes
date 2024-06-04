@@ -19,7 +19,7 @@ export default defineConfig({
       label: '目录',
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Odin-7/shulan-notes' }
+      { icon: 'github', link: 'https://github.com/Odin-7' }
     ],
     docFooter: {
       prev: "上一篇",
