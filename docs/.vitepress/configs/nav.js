@@ -14,7 +14,7 @@ export const nav = [
     activeMatch: '/back-dev/'
   },
   {
-    text: 'UI设计',
+    text: 'UI',
     link: '/ui-design/index',
     activeMatch: '/ui-design/'
   },
@@ -35,7 +35,7 @@ export const nav = [
     ],
   },
   {
-    text: '树懒',
+    text: '我',
     link: '/about-me/index',
     activeMatch: '/about-me/'
   },

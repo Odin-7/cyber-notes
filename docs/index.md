@@ -4,23 +4,23 @@ layout: home
 layoutClass: 'home-layout'
 
 hero:
-  name: '树懒の'
-  text: '个人开发手记'
-  tagline: 探索技术，记录生活，分享感悟
+  name: Cyber
+  text: a developer 👨‍💻
+  tagline: Discover and create.
   image:
     src: /images/logo.png
-    alt: 树懒
+    alt: Cyber
     class: 'home-avatar'
   actions:
     - theme: brand
       text: 快速开始
       link: /front-dev
     - theme: alt
-      text: 百宝袋AI 🤖
+      text: AI
       link: https://mrk.auroralpixel.world
     - theme: alt
       text: Github
-      link: https://github.com/Odin-7/shulan-notes
+      link: https://github.com/Odin-7/cyber-notes
 features:
   - title: 前端导航
     details: 记录前端开发过程中的经验和技巧，分享学习心得。
@@ -65,7 +65,8 @@ features:
 
 <style scoped>
 .home-layout .home-avatar:hover {
-  background-color: pink;
+  cursor: pointer;
+  /* background-color: pink; */
   transform: translate(-50%, -50%) rotate(666turn);
   transition: transform 59s 1s cubic-bezier(0.3, 0, 0.8, 1);
 }

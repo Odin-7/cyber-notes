@@ -3,8 +3,8 @@ import { head, nav, sidebar } from './configs'
 
 export default defineConfig({
   // base: "/",
-  title: "ShuLan",
-  description: "树懒的个人开发手记，探索技术，记录生活，分享感悟",
+  title: "Cyber",
+  description: "Cyber的个人开发手记，探索技术，记录生活，分享感悟",
   head, // 网站头部元数据
   lastUpdated: true,
   cleanUrls: true, //URL简洁模式
@@ -33,8 +33,8 @@ export default defineConfig({
       },
     },
     footer: {
-      message: "树懒开发手记",
-      copyright: "Copyright © 2024-present 树懒"
+      message: "Cyber",
+      copyright: "Copyright © 2024-present"
     },
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
