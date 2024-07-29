@@ -13,7 +13,7 @@ hero:
     class: 'home-avatar'
   actions:
     - theme: brand
-      text: 快速开始
+      text: 开始
       link: /front-dev
     - theme: alt
       text: AI
@@ -42,11 +42,11 @@ features:
     icon: 🚀
     link: https://notes.fe-mm.com/fe/javascript/types
     linkText: 常用工具
-  - title: 开源项目
-    details: 拥抱开源，贡献力量！<br />分享开源项目开发经验，一起构建更美好的世界！
+  - title: 我的项目
+    details: 拥抱开源，分享一些有意思的东西。
     icon: ⚡
     link: https://notes.fe-mm.com/fe/javascript/types
-    linkText: 开源项目
+    linkText: 去看看
   - title: 生活随笔
     details: 记录生活点滴，分享美好瞬间。<br />愿我有所发现，有所创造！
     icon: 📝
@@ -64,6 +64,16 @@ features:
 ---
 
 <style scoped>
+.home-avatar{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: transform 0.5s ease-in-out;
+}
 .home-layout .home-avatar:hover {
   cursor: pointer;
   /* background-color: pink; */

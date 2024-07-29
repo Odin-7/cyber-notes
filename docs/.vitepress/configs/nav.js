@@ -1,8 +1,8 @@
 export const nav = [
-  {
-    text: '首页',
-    link: '/'
-  },
+  // {
+  //   text: '首页',
+  //   link: '/'
+  // },
   {
     text: '前端',
     link: '/front-dev/index',
@@ -14,13 +14,18 @@ export const nav = [
     activeMatch: '/back-dev/'
   },
   {
-    text: 'UI',
+    text: '我的项目',
     link: '/ui-design/index',
     activeMatch: '/ui-design/'
   },
   {
-    text: '工具',
-    activeMatch: '/tools-dev|open-source',
+    text: '新技术',
+    link: '/new-study/index',
+    activeMatch: '/new-study/'
+  },
+  {
+    text: 'Tools',
+    activeMatch: '/tools-dev|browser-plugin',
     items: [ // 子菜单项
       {
         text: '实用工具',
@@ -28,14 +33,19 @@ export const nav = [
         activeMatch: '/tools-dev/'
       },
       {
-        text: '开源项目',
-        link: '/open-source/index',
-        activeMatch: '/open-source/'
+        text: 'Chrome插件开发',
+        link: '/browser-plugin/index',
+        activeMatch: '/browser-plugin/'
+      },
+      {
+        text: 'VSCode工具',
+        link: '/vscode-plugin/index',
+        activeMatch: '/vscode-plugin/'
       }
     ],
   },
   {
-    text: '我',
+    text: '关于',
     link: '/about-me/index',
     activeMatch: '/about-me/'
   },
