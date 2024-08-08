@@ -15,16 +15,16 @@ export const nav = [
   },
   {
     text: '我的项目',
-    link: '/ui-design/index',
-    activeMatch: '/ui-design/'
+    link: '/my-project/index',
+    activeMatch: '/my-project/'
   },
   {
-    text: '新技术',
+    text: 'AI相关',
     link: '/new-study/index',
     activeMatch: '/new-study/'
   },
   {
-    text: 'Tools',
+    text: '其他',
     activeMatch: '/tools-dev|browser-plugin',
     items: [ // 子菜单项
       {
@@ -33,12 +33,12 @@ export const nav = [
         activeMatch: '/tools-dev/'
       },
       {
-        text: 'Chrome插件开发',
+        text: 'Chrome插件',
         link: '/browser-plugin/index',
         activeMatch: '/browser-plugin/'
       },
       {
-        text: 'VSCode工具',
+        text: 'VSCode插件',
         link: '/vscode-plugin/index',
         activeMatch: '/vscode-plugin/'
       }

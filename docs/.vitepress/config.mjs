@@ -1,8 +1,11 @@
 import { defineConfig } from 'vitepress'
 import { head, nav, sidebar } from './configs'
 
+
+
 export default defineConfig({
-  // base: "/",
+  base: "/",
+  lang: "zh",
   title: "Cyber",
   description: "Cyber的个人开发手记，探索技术，记录生活，分享感悟",
   head, // 网站头部元数据
@@ -19,7 +22,7 @@ export default defineConfig({
       label: '目录',
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Odin-7' }
+      { icon: 'github', link: 'https://github.com/Odin-7/cyber-notes' }
     ],
     docFooter: {
       prev: "上一篇",
